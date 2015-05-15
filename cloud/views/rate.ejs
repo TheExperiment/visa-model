@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rate Cards</title>
+    <script src="//www.parsecdn.com/js/parse-1.4.2.min.js"></script>
+  </head>
+  <body>
+    <p><%= message %></p>
+  </body>
+  <script type="text/javascript">
+  	Parse.initialize("dQAGmTSMcjK0vlVZK2VRDQOBdb62A2Pt8erSBV9u", "JzcaIZslsOkVM4pxRWH6jcknUKhypdPJjRvRopbb");
+	Parse.Cloud.run('rateCards', {}, {
+	  success: function(result) {
+	    console.log("Parse.Cloud.run success")
+	    console.log(result)
+	  },
+	  error: function(error) {
+	  }
+	});
+</script>
+</html>
