@@ -1,0 +1,40 @@
+2015-05-11 17:18:59.782 Grid Extension[53531:1452811] Failed to inherit CoreMedia permissions from 53515: (null)
+userInfo: {
+    NSExtensionItemAttachmentsKey =     (
+        "<NSItemProvider: 0x608000242070> {types = (\n    \"public.png\"\n)}"
+    );
+}
+registeredTypeIdentifiers: [public.png]
+kUTTypeJPEG image/jpeg: file:///Users/nick/Library/Developer/CoreSimulator/Devices/C901D16E-1D4B-4044-9059-4EC299688AC5/data/Media/DCIM/100APPLE/IMG_0006.PNG
+directory does not exist, create
+
+<Notice> failed to delete: /Users/nick/Library/Developer/CoreSimulator/Devices/C901D16E-1D4B-4044-9059-4EC299688AC5/data/Containers/Shared/AppGroup/E69001AB-3BC5-493B-9ED8-EC1486DD727E/upload/IMG_0006.PNG with error: Optional(Error Domain=NSCocoaErrorDomain Code=4 "The operation couldn’t be completed. (Cocoa error 4.)" UserInfo=0x60000086b200 {NSFilePath=/Users/nick/Library/Developer/CoreSimulator/Devices/C901D16E-1D4B-4044-9059-4EC299688AC5/data/Containers/Shared/AppGroup/E69001AB-3BC5-493B-9ED8-EC1486DD727E/upload/IMG_0006.PNG, NSUserStringVariant=(
+    Remove
+), NSUnderlyingError=0x60000024a200 "The operation couldn’t be comed. No such file or directory"})
+tag indicates user allowed share
+completionHandler, expired: false
+URLSession task didSendBodyData totalBytesSent totalBytesExpectedToSend
+URLSession task didCompleteWithError error: NO ERROR :)
+URLSession task didBecomeInvalidWithError error: NO ERROR :)
+2015-05-11 17:19:07.461 MobileSlideShow[53515:1452637] plugin io.thegrid.grid.ext invalidated
+2015-05-11 17:19:07.462 Grid Extension[53531:1452826] host connection <NSXPCConnection: 0x600000113e60> connection from pid 53515 invalidated
+2015-05-11 17:20:57.510 Grid Extension[53531:1453466] Failed to inherit CoreMedia permissions from 53515: (null)
+userInfo: {
+    NSExtensionItemAttachmentsKey =     (
+        "<NSItemProvider: 0x6080002407e0> {types = (\n    \"public.jpeg\"\n)}"
+    );
+}
+registeredTypeIdentifiers: [public.jpeg]
+kUTTypeJPEG image/jpeg: file:///Users/nick/Library/Developer/CoreSimulator/Devices/C901D16E-1D4B-4044-9059-4EC299688AC5/data/Media/DCIM/100APPLE/IMG_0007.JPG
+directory exists and ready to write to
+<Notice> failed to delete: /Users/nick/Library/Developer/CoreSimulator/Devices/C901D16E-1D4B-4044-9059-4EC299688AC5/data/Containers/Shared/AppGroup/E69001AB-3BC5-493B-9ED8-EC1486DD727E/upload/IMG_0007.JPG with error: Optional(Error Domain=NSCocoaErrorDomain Code=4 "The operation couldn’t be completed. (Cocoa error 4.)" UserInfo=0x60000086a1c0 {NSFilePath=/Users/nick/Library/Deveper/CoreSimulator/Devices/C901D16E-1D4B-4044-9059-4EC299688AC5/data/Containers/Shared/AppGroup/E69001AB-3BC5-493B-9ED8-EC1486DD727E/upload/IMG_0007.JPG, NSUserStringVariant=(
+    Remove
+), NSUnderlyingError=0x600000450e90 "The operation couldn’t be completed. No such file or directory"
+tag indicates user allowed share
+completionHandler, expired: false
+URLSession task didSendBodyData totalBytesSent totalBytesExpectedToSend
+URLSession task didSendBodyData totalBytesSent totalBytesExpectedToSend
+URLSession task didCompleteWithError error: NO ERROR :)
+URLSession task didBecomeInvalidWithError error: NO ERROR :)
+2015-05-11 17:21:05.076 MobileSlideShow[53515:1453400] plugin io.thegrid.grid.ext invalidated
+2015-05-11 17:21:05.078 Grid Extension[53531:1453466] host connection <NSXPCConnection: 0x6000001138c0> connection from pid 53515 invalidated
